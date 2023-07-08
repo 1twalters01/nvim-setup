@@ -44,6 +44,17 @@ return require('packer').startup(function(use)
       {'hrsh7th/cmp-nvim-lsp'}, -- Required
       {'L3MON4D3/LuaSnip'},     -- Required
     }
-  } 
+  }
+  use {'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async'}
+  use { 'codota/tabnine-nvim', run = "./dl_binaries.sh" }
+  require('tabnine').setup({
+    disable_auto_comment=true,
+    accept_keymap="<Tab>",
+    dismiss_keymap = "<C-]>",
+    debounce_ms = 800,
+    suggestion_color = {gui = "#808080", cterm = 244},
+    exclude_filetypes = {"TelescopePrompt"},
+    log_file_path = nil, -- absolute path to Tabnine log file
+  })
 
 end)

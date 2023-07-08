@@ -119,6 +119,11 @@ _G.packer_plugins = {
     path = "C:\\Users\\44775\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-treesitter",
     url = "https://github.com/nvim-treesitter/nvim-treesitter"
   },
+  ["nvim-ufo"] = {
+    loaded = true,
+    path = "C:\\Users\\44775\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-ufo",
+    url = "https://github.com/kevinhwang91/nvim-ufo"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "C:\\Users\\44775\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\packer.nvim",
@@ -134,11 +139,21 @@ _G.packer_plugins = {
     path = "C:\\Users\\44775\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["promise-async"] = {
+    loaded = true,
+    path = "C:\\Users\\44775\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\promise-async",
+    url = "https://github.com/kevinhwang91/promise-async"
+  },
   ["rose-pine"] = {
     config = { "\27LJ\2\n9\0\0\3\0\3\0\0056\0\0\0009\0\1\0'\2\2\0B\0\2\1K\0\1\0\26colorscheme rose-pine\bcmd\bvim\0" },
     loaded = true,
     path = "C:\\Users\\44775\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\rose-pine",
     url = "https://github.com/rose-pine/neovim"
+  },
+  ["tabnine-nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\44775\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\tabnine-nvim",
+    url = "https://github.com/codota/tabnine-nvim"
   },
   ["telescope.nvim"] = {
     loaded = true,
