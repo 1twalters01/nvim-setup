@@ -39,3 +39,32 @@ This lets you collapse and expand indented code
 Lightweight ai companion. Provides smaller code snippets than copilot. I often have it turned off.
 
 ## Main hotkeys
+### normal mode
+#### General
+* h - left, l - right, k - up, j - down
+* ctrl + u - page jump up, ctrl + d - page jump down
+* n - move down and keep cursor still, N for up
+* \pv - open current directory
+* \s - find all and replace
+* \p paste without loosing current paste buffer
+* <space>p and <space>P are "+p and "+P respectively
+* <space>y and <space>Y are "+y and "+Y respectively
+
+#### Harpoon
+* \a - add file to harpoon
+* ctrl + e - harpoon quick menu
+* ctrl + t/y/g/h/b - go to file 1,2,3,4,5 respectively
+
+#### Telescope
+* \f - file fuzzy finder for all files
+* ctrl + f - fuzzy finder for files uploaded to github only
+
+#### Nvim-ufo
+* \o - open all folds
+* \l - close all folds
+* \. - preview closed fold
+
+#### Undotree
+\u - undotree toggle
+
+### visual mode
