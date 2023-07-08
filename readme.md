@@ -47,8 +47,8 @@ Lightweight ai companion. Provides smaller code snippets than copilot. I often h
 * \pv - open current directory
 * \s - find all and replace
 * \p paste without loosing current paste buffer
-* <space>p and <space>P are "+p and "+P respectively
-* <space>y and <space>Y are "+y and "+Y respectively
+* <space>p and <space>P - "+p and "+P respectively
+* <space>y and <space>Y - "+y and "+Y respectively
 
 #### Harpoon
 * \a - add file to harpoon
@@ -68,3 +68,6 @@ Lightweight ai companion. Provides smaller code snippets than copilot. I often h
 \u - undotree toggle
 
 ### visual mode
+* K - move highlighted text up, J - move highlighted text down
+* <space>p - "+p
+* <space>y - "+y
