@@ -2,10 +2,21 @@ local lsp = require("lsp-zero")
 
 lsp.preset("recommended")
 
+-- Conjugat settings
 lsp.ensure_installed({
   "lua_ls",
   "pyright",
   "rust_analyzer",
+  "clangd",
+  "hls",
+  "tsserver",
+})
+
+lsp.ensure_installed({
+  "lua_ls",
+  "gopls",
+  "zls",
+  "ols",
   "tsserver",
   "clangd",
 })

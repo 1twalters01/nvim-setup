@@ -29,4 +29,5 @@ vim.keymap.set("n", "<space>Y", "\"+Y")
 -- Find all and replace
 vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])
 
+-- Comment and uncomment code
 

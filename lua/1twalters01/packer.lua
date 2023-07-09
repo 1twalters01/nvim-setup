@@ -46,7 +46,12 @@ return require('packer').startup(function(use)
     }
   }
   use {'kevinhwang91/nvim-ufo', requires = 'kevinhwang91/promise-async'}
-  use { 'codota/tabnine-nvim', run = "./dl_binaries.sh" }
+  use {'numToStr/Comment.nvim',
+    config = function()
+      require('Comment').setup()
+    end
+  }
+  use { 'codota/tabnine-nvim', run = "./dl_binaries.sh"}
   require('tabnine').setup({
     disable_auto_comment=true,
     accept_keymap="<Tab>",
