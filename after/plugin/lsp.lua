@@ -12,14 +12,28 @@ lsp.ensure_installed({
   "tsserver",
 })
 
-lsp.ensure_installed({
-  "lua_ls",
-  "gopls",
-  "zls",
-  "ols",
-  "tsserver",
-  "clangd",
-})
+-- -- Spyrals settings
+-- lsp.ensure_installed({
+    --   "lua_ls",
+    --   "gopls",
+    --   "zls",
+    --   "ols",
+    --   "tsserver",
+    --   "clangd",
+    -- })
+
+-- -- SupplementCalc settings
+--   lsp.ensure_installed({
+--   "lua_ls",
+--   "java_language_server",
+--   "scala",
+--   "kotlin_language_server",
+--   "clojure_lsp",
+--   "groovyls",
+--   "tsserver",
+--   "angular_ls",
+-- })
+
 
 -- Fix Undefined global 'vim'
 lsp.nvim_workspace()

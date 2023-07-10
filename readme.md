@@ -10,13 +10,14 @@ The plugins used are as follows:
 * treesitter / treesitter playground / undotree
 * fugitive
 * ufo
+* comment.nvim
 * tabnine
 
 ### Packer
 Currently using Packer as my plugin manager, though I might join the hypetrain and use lazy eventually
 
 ### LSP-zero
-Languages configured on the server list are naturally the ones I use the most. I have the following configured servers:
+Languages configured on the server list. I make a different configuration for each project as I don't want to bloat neovim. The ones for my current project are as follows:
 * pyright for Python
 * rust_analyser for Rust
 * tsserver for TypeScript
@@ -34,6 +35,9 @@ This lets you use git inside of neovim
 
 ### nvim-ufo
 This lets you collapse and expand indented code
+
+### comment.nvim
+Comment lines of code out
 
 ### tabnine
 Lightweight ai companion. Provides smaller code snippets than copilot. I often have it turned off.
@@ -61,8 +65,14 @@ Lightweight ai companion. Provides smaller code snippets than copilot. I often h
 
 #### Nvim-ufo
 * \o - open all folds
+* \oo - open all folds on the current line level
 * \l - close all folds
+* \ll - close all folds on the current line level
 * \. - preview closed fold
+
+#### Comment.nvim
+* \// - comment the current line out
+* \/<number> k or j - comment out the number amount of lines above/below
 
 #### Undotree
 \u - undotree toggle
